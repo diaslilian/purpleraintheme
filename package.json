@@ -1,0 +1,30 @@
+{
+  "name": "purplerain",
+  "displayName": "diaslilian Theme",
+  "description": "tema roxo",
+  "version": "0.0.1",
+  "author": "Lilian Dias",
+  "homepage": "https://github.com/diaslilian/purpleraintheme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diaslilian/purpleraintheme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/diaslilian/purpleraintheme/issues"
+  },
+  "engines": {
+    "vscode": "^1.47.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "diaslilian",
+        "uiTheme": "vs-dark",
+        "path": "./themes/diaslilian-color-theme.json"
+      }
+    ]
+  }
+}
